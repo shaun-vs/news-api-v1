@@ -14,9 +14,9 @@ function* getNewsBySearch(action) {
       
 
     })
-    .then((data) => {
+    .then((resp2) => {
       
-      return data;
+      return resp2;
 
     })
     .catch((err) => {
@@ -42,9 +42,9 @@ function* getNextNewsPage(action) {
       return resp.json();
 
     })
-    .then((data) => {
+    .then((resp2) => {
       
-      return data;
+      return resp2;
 
     })
     .catch((err) => {
